@@ -57,6 +57,7 @@ const EditSourceForm = ({
         }
       })();
     }
+    setLoading(false);
   }, [showForm]);
 
   const fetchSourceDefinitions = async () => {
